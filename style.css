@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,body,h2,p{
+	margin: 0;
+	list-style-type:none;
+	/* 去黑点 */
+	
+}
+body{
+	background-color: red;
+}
+/* #wrap{
+	width: 900px;
+	margin: 0 auto;
+	
+} */
+
+#header{
+	background-color: aquamarine;
+	height: 70px;
+}
+
+#logo{
+	/* background-color: green;/ */
+	float: left;
+	margin: 0 auto;
+	width: 380px;
+}
+#nav li{
+	width:100px;
+	float: left;
+}
+#nav{
+	/* background-color: deeppink; */
+	overflow: hidden;
+	float:left;
+	
+}
+#search{
+	/* background-color: yellow; */
+	overflow: hidden;
+	float:right;
+	width: 200px;
+}
+#banner{
+	background-color: #70f8ff;
+	background-image: url(images/service_banner.png);
+	height: 549px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#main{
+	background-color: bisque;
+}
+.section1{
+	background-color: aqua;
+	overflow: hidden;
+}
+.section2{
+	background-color: blue;
+	overflow: hidden;
+}
+.left{
+	background-color:cadetblue;
+	width: 866px;
+	float: left;
+	
+}
+.right{
+	background-color: #FF0000;
+	width: 278px;
+	float: right;
+}
+.wangdian li{
+	background-color: pink;
+	margin: 0 0 10px 0;
+	width: 386px;
+	float: right;
+	overflow: hidden;
+}
+.wd-pic1{
+	width: 152px;
+    float: left;
+
+}
+.wd-txt{
+	width: 234px;
+	float: right;
+}
+body{
+	background-color: lightblue;
+}
+#yejiao{
+	background-color: aliceblue;
+}
+.pagew1160{
+	width: 1160px;
+	margin: 0 auto;
+}
+.pagew900{
+	width: 1160px;
+	margin: 0 auto;
+}
+/* #jian{
+	background-color: #FF0000;
+	height: 300px;
+	width: 300px;
+	margin:0 auto;
+}
+ */
