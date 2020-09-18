@@ -9,7 +9,7 @@ ul,li,body,h2,p{
 	
 }
 body{
-	background-color: red;
+	/* background-color: red; */
 }
 /* #wrap{
 	width: 900px;
@@ -18,7 +18,7 @@ body{
 } */
 
 #header{
-	background-color: aquamarine;
+	/* background-color: aquamarine; */
 	height: 70px;
 }
 
@@ -28,72 +28,129 @@ body{
 	margin: 0 auto;
 	width: 380px;
 }
+#logo img{
+	height: 60px;
+display: rosybrown;
+	
+}
 #nav li{
 	width:100px;
 	float: left;
+	/* background-color: yellow; */
+	text-align: center;
+	
+}
+#nav li a{
+	width:100px;
+	float: left;
+	/* background-color: pick; */
+	display: block;
+	line-height: 60px;
+	margin:0 1px 0 0;
+	text-decoration: none;
+	color: #333;
 }
 #nav{
-	/* background-color: deeppink; */
+	/* background-color: red; */
 	overflow: hidden;
 	float:left;
+	height: 60px;
 	
+}
+#search input{
+	height: 30px;
 }
 #search{
 	/* background-color: yellow; */
 	overflow: hidden;
 	float:right;
 	width: 200px;
+	padding: 15px 0;
+	height: 30px;
+	/* border: 1px solid #333; */
+	/* m *//* argin;0 1px 0 0; */
 }
 #banner{
-	background-color: #70f8ff;
+	/* background-color: #70f8ff; */
 	background-image: url(images/service_banner.png);
 	height: 549px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 #main{
-	background-color: bisque;
+	background-color: beige;
+}
+.mianbao{
+	/* background-color:red; */
+	/* margin: 50px 0; */
+	/* padding: 1px solid black; */
+	padding:50px 0 50px 0;
 }
 .section1{
-	background-color: aqua;
+	/* background-color: aqua; */
 	overflow: hidden;
 }
+.section h2{
+	padding: 50px 0;
+	text-align: center;
+}
 .section2{
-	background-color: blue;
+	/* background-color: blue; */
 	overflow: hidden;
 }
 .left{
-	background-color:cadetblue;
-	width: 866px;
+	background-color:white;
+	width: 810px;
 	float: left;
+	margin: 0 16px 0 0;
+	padding: 20px;
+	border: 1px solid red;
+	
 	
 }
 .right{
-	background-color: #FF0000;
-	width: 278px;
+	background-color: white;
+	width: 236px;
 	float: right;
+	border: 1px solid red;
+	padding: 20px;
+}
+.wangdian{
+	background-color: yellowgree;
+	overflow: hidden;
 }
 .wangdian li{
-	background-color: pink;
-	margin: 0 0 10px 0;
-	width: 386px;
+	padding: 10px;
+	background-color: white;
+	margin: 0 20px 20px 0;
+	width: 346px;
 	float: right;
 	overflow: hidden;
 }
 .wd-pic1{
-	width: 152px;
+	width: 112px;
     float: left;
 
 }
+.wd-pic1 img{
+	display: block;
+	width: 112px;
+}
 .wd-txt{
-	width: 234px;
+	width: 214px;
 	float: right;
+	padding:0 0 0 10px;
+	font-size: 17px;
+}
+.beijin{
+	background-color: #F08080;
+	font-size: 20px;
 }
 body{
-	background-color: lightblue;
+	/* background-color: lightblue; */
 }
 #yejiao{
-	background-color: aliceblue;
+	background-color: royalblue;
 }
 .pagew1160{
 	width: 1160px;
@@ -102,11 +159,56 @@ body{
 .pagew900{
 	width: 1160px;
 	margin: 0 auto;
+	/* background-color: red; */
 }
-/* #jian{
-	background-color: #FF0000;
-	height: 300px;
+.sitemap{
+	/* background-color: green; */
+	overflow: hidden;
+}
+.contact{
+	background-color: red;
+	width: 260px;
+	float: left;
+	height: 200px;
+}
+.footer-menu{
+	background-color: aqua;
+	width: 650px;
+	float: left;
+}
+
+.share ul{
+	background-color: lightcoral;
+	overflow: hidden;
+	}
+.share ul li{
+	/* background-color: yellow; */
+	width: 216px;
+	float: left;
+}
+.share ul li img{
+	width: 50px;
+	height: 50px;
+	color:pink;
+}
+.fmenu{
+	overflow: hidden;
+}
+.fmenu-item{
+	width: 130px;
+	float: left;
+}
+.copyright{
+	background-color: pink;
+}
+/* }
+.share ul li{
 	width: 300px;
-	margin:0 auto;
+	background-color: #0000FF;
+	float: left;
 }
- */
+.share ul li img{
+	width: 50px;
+	height: 50px;
+} */
+
