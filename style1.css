@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,body,h2,p{
+	margin: 0;
+	list-style-type:none;
+	/* 去黑点 */
+	
+}
+body{
+	/* background-color: red; */
+}
+/* #wrap{
+	width: 900px;
+	margin: 0 auto;
+	
+} */
+
+#header{
+	/* background-color: aquamarine; */
+	height: 70px;
+}
+
+#logo{
+	/* background-color: green;/ */
+	float: left;
+	margin: 0 auto;
+	width: 380px;
+}
+#logo img{
+	height: 60px;
+display: rosybrown;
+	
+}
+#nav li{
+	width:100px;
+	float: left;
+	/* background-color: yellow; */
+	text-align: center;
+	
+}
+#nav li a{
+	width:100px;
+	float: left;
+	/* background-color: pick; */
+	display: block;
+	line-height: 60px;
+	margin:0 1px 0 0;
+	text-decoration: none;
+	color: #333;
+}
+#nav{
+	/* background-color: red; */
+	overflow: hidden;
+	float:left;
+	height: 60px;
+	
+}
+#search input{
+	height: 30px;
+}
+#search{
+	/* background-color: yellow; */
+	overflow: hidden;
+	float:right;
+	width: 200px;
+	padding: 15px 0;
+	height: 30px;
+	/* border: 1px solid #333; */
+	/* m *//* argin;0 1px 0 0; */
+}
+#banner{
+	/* background-color: #70f8ff; */
+	background-image: url(images/service_banner.png);
+	height: 549px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#main{
+	/* 服务政策＋服务网点背景颜色 */
+	background-color: #F3f3f3;
+}
+.mianbao{
+	/* background-color:red; */
+	/* margin: 50px 0; */
+	/* padding: 1px solid black; */
+	padding:50px 0 50px 0;
+}
+.section1{
+	/* background-color: aqua; */
+	overflow: hidden;
+}
+.section h2{
+	padding: 50px 0;
+	text-align: center;
+}
+.section2{
+	/* background-color: blue; */
+	overflow: hidden;
+}
+.left{
+	/* 主体服务政策部分 */
+	background-color:white;
+	width: 810px;
+	float: left;
+	margin: 0 16px 0 0;
+	padding: 20px;
+	border: 1px solid white;
+	
+	
+}
+.right{
+	/* 边框 */
+	background-color: white;
+	width: 236px;
+	float: right;
+	border: 1px solid white;
+	padding: 20px;
+}
+.wangdian{
+	/* background-color: yellowgree; */
+	overflow: hidden;
+}
+.wangdian li{
+	padding: 10px;
+	background-color: white;
+	margin: 0 20px 20px 0;
+	width: 346px;
+	float: right;
+	overflow: hidden;
+}
+.wd-pic1{
+	width: 112px;
+    float: left;
+
+}
+.wd-pic1 img{
+	display: block;
+	width: 112px;
+}
+.wd-txt{
+	width: 214px;
+	float: right;
+	padding:0 0 0 10px;
+	font-size: 17px;
+}
+.beijin{
+	/* background-color: #F08080; */
+
+}
+body{
+	background-color: #F3f3f3;
+}
+#yejiao{
+	background-color: #333;
+}
+.pagew1160{
+	width: 1160px;
+	margin: 0 auto;
+}
+.pagew900{
+	width: 1160px;
+	margin: 0 auto;
+	/* background-color: red; */
+}
+.sitemap{
+	overflow: hidden;
+}
+.contact{
+	width: 400px;
+	float: left;
+	/* height: 200px; */
+}
+.contact img{
+	margin:30px 0 10px 20px;
+	height: 100px;
+	width: 250px;
+}
+.contact h3{
+	color: white;
+	margin:0 0 5px 20px;
+}
+.contact ul{
+	/* background-color: #F08080; */
+	margin:0 0 30px 0;
+}
+.contact ul li{
+	/* background-color: #F08080; */
+	color: white;
+	margin: 5px 0 5px 20px;
+}
+.footer-menu{
+	/* margin: 0 50px 0; */
+	/* background-color: yellowgreen; */
+	width: 760px;
+	float: left;
+	color: white;
+	/* margin: 0 30px 0; */
+}
+.footer-menu h3{
+	color: white;
+}
+.footer-menu ul li a{
+	color: white;
+	text-decoration: none;
+	/* background-color: white; */
+}
+.fmenu{
+	/* float: rigt; */
+	overflow: hidden;
+}
+.fmenu-item{
+	margin: 30px 20px 10px 49px;
+	/* padding: 0 auto; */
+	/* width: 130px; */
+	float: left;
+	/* 下主体部分 */
+}
+.share ul{
+	overflow: hidden;
+	float: left;
+	/* background-color:yellow; */
+	width: 760px;
+}
+.share ul li img{
+	float: left;
+	margin: 10px 10px 10px 49px;
+}
+.share lu li{
+	width: 100px;
+	float: left;
+	
+}
+.share h3{
+	margin: 20px 0 10px 49px;
+}
+
+.copyright p{
+	color: white;
+	padding: 10px 0 10px 0;
+	text-align:center;
+	margin: 10px 0 0 0 ;
+}
+/* .share ul li{
+	width: 500px;
+} */

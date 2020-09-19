@@ -112,7 +112,7 @@ display: rosybrown;
 	background-color: white;
 	width: 236px;
 	float: right;
-	border: 1px solid red;
+	border: 1px solid white;
 	padding: 20px;
 }
 .wangdian{
@@ -144,13 +144,13 @@ display: rosybrown;
 }
 .beijin{
 	background-color: #F08080;
-	font-size: 20px;
+
 }
 body{
 	/* background-color: lightblue; */
 }
 #yejiao{
-	background-color: royalblue;
+	background-color: #333;
 }
 .pagew1160{
 	width: 1160px;
@@ -162,53 +162,83 @@ body{
 	/* background-color: red; */
 }
 .sitemap{
-	/* background-color: green; */
 	overflow: hidden;
 }
 .contact{
-	background-color: red;
-	width: 260px;
+	width: 400px;
 	float: left;
-	height: 200px;
+	/* height: 200px; */
+}
+.contact img{
+	margin:30px 0 10px 20px;
+	height: 100px;
+	width: 250px;
+}
+.contact h3{
+	color: white;
+	margin:0 0 5px 20px;
+}
+.contact ul{
+	/* background-color: #F08080; */
+	margin:0 0 30px 0;
+}
+.contact ul li{
+	/* background-color: #F08080; */
+	color: white;
+	margin: 5px 0 5px 20px;
 }
 .footer-menu{
-	background-color: aqua;
-	width: 650px;
+	/* margin: 0 50px 0; */
+	/* background-color: yellowgreen; */
+	width: 760px;
 	float: left;
+	color: white;
+	/* margin: 0 30px 0; */
 }
-
-.share ul{
-	background-color: lightcoral;
-	overflow: hidden;
-	}
-.share ul li{
-	/* background-color: yellow; */
-	width: 216px;
-	float: left;
+.footer-menu h3{
+	color: white;
 }
-.share ul li img{
-	width: 50px;
-	height: 50px;
-	color:pink;
+.footer-menu ul li a{
+	color: white;
+	text-decoration: none;
+	/* background-color: white; */
 }
 .fmenu{
+	/* float: rigt; */
 	overflow: hidden;
 }
 .fmenu-item{
-	width: 130px;
+	margin: 30px 20px 10px 49px;
+	/* padding: 0 auto; */
+	/* width: 130px; */
 	float: left;
+	/* 下主体部分 */
 }
-.copyright{
-	background-color: pink;
-}
-/* }
-.share ul li{
-	width: 300px;
-	background-color: #0000FF;
+.share ul{
+	overflow: hidden;
 	float: left;
+	/* background-color:yellow; */
+	width: 760px;
 }
 .share ul li img{
-	width: 50px;
-	height: 50px;
-} */
+	float: left;
+	margin: 10px 10px 10px 49px;
+}
+.share lu li{
+	width: 100px;
+	float: left;
+	
+}
+.share h3{
+	margin: 20px 0 10px 49px;
+}
 
+.copyright p{
+	color: white;
+	padding: 10px 0 10px 0;
+	text-align:center;
+	margin: 10px 0 0 0 ;
+}
+/* .share ul li{
+	width: 500px;
+} */
